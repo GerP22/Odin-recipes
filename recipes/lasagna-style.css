@@ -1,0 +1,27 @@
+.text-size {
+    font-size: 20px;
+}
+
+body{
+    background-color: #eae3d2;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #c04641;
+}
+
+p {
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+
+
+

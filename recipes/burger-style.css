@@ -1,0 +1,27 @@
+body {
+    background-color: #ece6d0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4d3c2d;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+div {
+    text-align: center;
+}
+
+.font {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Jokerman', sans-serif, XD;
+}
+
+.a {
+    position: absolute;
+    left: 50%;  
+    font-size: 20px; 
+}

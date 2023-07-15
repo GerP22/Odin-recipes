@@ -1,20 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body, .wrapper {
+    height: 100%;
+}
+
 body {
+    display: grid;
+    place-items: center;
+    margin: 0px;
+    padding: 0 24px;
+    background-image: url("images/circle-scatter-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    margin: 0 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 90px;
+    text-align: center;
     background-color: #eae3d2;
-}
-
-.title{
-    background-color:#166461;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100px;
-}
-
-ul{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
 }
 
-div {
+ul, li, a {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #eae3d2;
+    padding: 10px 10px 10px; 
+    
 }
+

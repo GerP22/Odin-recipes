@@ -29,12 +29,19 @@ body {
     font-size: 50px;
 }
 
-ul, li, a {
-    text-align: center;
+.recipes-links {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    color: #eae3d2;
+    color: black;
     padding: 10px 10px 10px; 
+    background-color: #eae3d2;
+    border-radius: 20px;
+}
+
+.gif {
+    background-color: #eae3d2;
+    padding: 12px;
+    border-radius: 20px;
     
 }
 

@@ -1,19 +1,26 @@
-body {
-    background-color: #eae3d2;
+* {
     box-sizing: border-box;
+}
 
+body, html, .wrapper{
+    height: 100%;
+    background-color: #eae3d2;
+    padding: 5px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .title, h1 {
+    position: relative;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
     background-color: #c04641;
-    display: grid;
-    place-items: center;
-    margin: 8px 200px ;
-    padding: 10px;
+    display: inline-block;
+    align-content: center;
+    margin: 8px 45%;
+    text-align: center;
+    padding: 0 5px;
     border-radius: 2rem;
 
 }
@@ -23,6 +30,7 @@ body {
     font-size: 18px;
     background-color: #f1cbcd;
     border-radius: 2em;
+    
     
 }
 
@@ -48,9 +56,20 @@ div {
     background-color: #f1cbcd;
     border-radius: 2em;
     margin: 8px;
+    
 
 }
 
 
 
 
+/*font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #c04641;
+    display: grid;
+    place-items: center;
+    margin: 8px 200px ;
+    padding: 10px;
+    border-radius: 2rem; */
